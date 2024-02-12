@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="+.}46v4D!o]tY0FN7sYC" x="246" y="-231"><statement name="HANDLER"><block type="controls_if" id="=_-+6A%a`(VJoC(M3Tu="><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="@SQ^q0I!59e#l9M:ti5X"><field name="OP">LT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_light_level" id="q,QqfRl3F^ED28eF6:wY"></block></value><value name="B"><shadow type="math_number" id="_L?MR$wTfsT[DCRU%RTF"><field name="NUM">50</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="LcLXnak4?{DEbEO3+z4m"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field></block></statement><next><block type="controls_if" id="SfYl57t}h6i9=_}=v9{!"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="H28.AX:5=F#2]f4Ae32r"><field name="OP">LT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_light_level" id="mluouW8qLb$i/*t+d|])"></block></value><value name="B"><shadow type="math_number" id="2c`NJ95-m{zuiiQsr%Va"><field name="NUM">75</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="riPn`30yDu;O2O:7EkQ,"><field name="LEDS">`
+        . . . . . 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field></block></statement><next><block type="controls_if" id=".(b1+h9~VpuZ-1k(euTz"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="7Kk0yl~2_mU~sdq3bmZ!"><field name="OP">LT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_light_level" id="iL;JZ*XT$zVMXG=RgNT*"></block></value><value name="B"><shadow type="math_number" id="hB#3yX/n[-uET)6Hsyrb"><field name="NUM">90</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="B]M]]o=*xFk44)3EANO{"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        # # # # #
+        `</field></block></statement></block></next></block></next></block></statement></block></xml>
